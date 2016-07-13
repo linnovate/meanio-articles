@@ -1,0 +1,28 @@
+{
+  "name": "meanio-articles",
+  "version": "0.0.1",
+  "description": "Articles example package",
+  "author": "Linnovate",
+  "mean": "0.4.x",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  },
+  "dependencies": {},
+  "license": "MIT",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linnovate/meanio-articles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/linnovate/meanio-articles/issues"
+  },
+  "homepage": "https://github.com/linnovate/meanio-articles#readme"
+}
