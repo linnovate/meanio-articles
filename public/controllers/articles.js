@@ -86,16 +86,9 @@ angular.module('mean.articles').controller('ArticlesController', ['$scope', '$st
       Articles.get({
         articleId: $stateParams.articleId
       }, function(article) {
-<<<<<<< HEAD
-        console.log('article',article)
         $scope.article = article;
       });
     };
 
-=======
-        $scope.article = article;
-      });
-    };
->>>>>>> c9288b2f61bc9903db61245305af1300820b858a
   }
 ]);
