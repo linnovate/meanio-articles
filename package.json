@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "_args": [
     [
       {
@@ -63,18 +62,10 @@
     "shasum": "a55ee25f8c6cbf867a1da7e200ceea7f3653d9e3",
     "tarball": "https://registry.npmjs.org/meanio-articles/-/meanio-articles-0.0.1.tgz"
   },
-=======
-  "name": "meanio-articles",
-  "version": "0.0.1",
-  "description": "Articles example package",
-  "author": "Linnovate",
-  "mean": "0.4.x",
->>>>>>> c9288b2f61bc9903db61245305af1300820b858a
   "engines": {
     "node": "0.10.x",
     "npm": "1.4.x"
   },
-<<<<<<< HEAD
   "gitHead": "d7ce5f46a8c0cf37b7a8e52e456d7da66ecaa755",
   "homepage": "https://github.com/linnovate/meanio-articles#readme",
   "license": "MIT",
@@ -89,22 +80,10 @@
   "name": "meanio-articles",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
-=======
-  "dependencies": {},
-  "license": "MIT",
-  "main": "app.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
->>>>>>> c9288b2f61bc9903db61245305af1300820b858a
   "repository": {
     "type": "git",
     "url": "git+https://github.com/linnovate/meanio-articles.git"
   },
-<<<<<<< HEAD
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -127,10 +106,4 @@
       "pkgid": "meanio-articles@0.0.1"
     }
   ]
-=======
-  "bugs": {
-    "url": "https://github.com/linnovate/meanio-articles/issues"
-  },
-  "homepage": "https://github.com/linnovate/meanio-articles#readme"
->>>>>>> c9288b2f61bc9903db61245305af1300820b858a
 }
