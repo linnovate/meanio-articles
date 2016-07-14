@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "meanio-articles",
+        "scope": null,
+        "escapedName": "meanio-articles",
+        "name": "meanio-articles",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/rivka/devel/mean"
+    ]
+  ],
+  "_from": "meanio-articles@latest",
+  "_id": "meanio-articles@0.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/meanio-articles",
+  "_nodeVersion": "4.4.7",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/meanio-articles-0.0.1.tgz_1468329727578_0.30759303644299507"
+  },
+  "_npmUser": {
+    "name": "rivkah",
+    "email": "rivka@linnovate.net"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "meanio-articles",
+    "scope": null,
+    "escapedName": "meanio-articles",
+    "name": "meanio-articles",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/meanio-articles/-/meanio-articles-0.0.1.tgz",
+  "_shasum": "a55ee25f8c6cbf867a1da7e200ceea7f3653d9e3",
+  "_shrinkwrap": null,
+  "_spec": "meanio-articles",
+  "_where": "/home/rivka/devel/mean",
+  "author": {
+    "name": "Linnovate"
+  },
+  "bugs": {
+    "url": "https://github.com/linnovate/meanio-articles/issues"
+  },
+  "dependencies": {},
+  "description": "Articles example package",
+  "devDependencies": {},
+  "directories": {
+    "doc": "docs"
+  },
+  "dist": {
+    "shasum": "a55ee25f8c6cbf867a1da7e200ceea7f3653d9e3",
+    "tarball": "https://registry.npmjs.org/meanio-articles/-/meanio-articles-0.0.1.tgz"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  },
+  "gitHead": "d7ce5f46a8c0cf37b7a8e52e456d7da66ecaa755",
+  "homepage": "https://github.com/linnovate/meanio-articles#readme",
+  "license": "MIT",
+  "main": "app.js",
+  "maintainers": [
+    {
+      "name": "rivkah",
+      "email": "rivka@linnovate.net"
+    }
+  ],
+  "mean": "0.6.0",
+  "name": "meanio-articles",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linnovate/meanio-articles.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "0.10.x",
+        "npm": "1.4.x"
+      },
+      "pkgid": "meanio-articles@0.0.1"
+    },
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "0.10.x",
+        "npm": "1.4.x"
+      },
+      "pkgid": "meanio-articles@0.0.1"
+    }
+  ]
+}
