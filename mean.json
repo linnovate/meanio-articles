@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "articles",
   "version": "0.0.1",
   "mean": "0.6.0",
@@ -8,10 +7,3 @@
     "circles": "0.1.x"
   }
 }
-=======
-  "dependencies": {
-    "users": "latest",
-    "circles": "latest"
-  }
-}
->>>>>>> c9288b2f61bc9903db61245305af1300820b858a
