@@ -14,7 +14,7 @@
     ]
   ],
   "_from": "meanio-articles@latest",
-  "_id": "meanio-articles@0.0.2",
+  "_id": "meanio-articles@0.0.1",
   "_inCache": true,
   "_installable": true,
   "_location": "/meanio-articles",
@@ -87,7 +87,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "warnings": [
     {
       "code": "ENOTSUP",
