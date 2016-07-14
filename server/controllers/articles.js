@@ -105,13 +105,13 @@ module.exports = function(Articles) {
          * Show an article
          */
         show: function(req, res) {
-            
+           
             Articles.events.publish({
                 action: 'viewed',
                 user: {
                     name: req.user.name
                 },
-           /*     name: req.article.title,*/
+                name: req.article.title,
                 url: config.hostname + '/articles/' + req.article._id
             });
 

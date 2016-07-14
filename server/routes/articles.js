@@ -22,21 +22,34 @@ var hasPermissions = function(req, res, next) {
     next();
 };
 
+<<<<<<< HEAD
 
 module.exports = function(Articles, app, auth, database, circles) {
 
   var requiresLogin = circles.controller.hasCircle('authenticated');
 
+=======
+module.exports = function(Articles, app, auth) {
+  
+>>>>>>> c9288b2f61bc9903db61245305af1300820b858a
   var articles = require('../controllers/articles')(Articles);
 
   app.route('/api/articles')
     .get(articles.all)
+<<<<<<< HEAD
     .post(requiresLogin, hasPermissions, articles.create);
 
   app.route('/api/articles/:articleId')
     .get(auth.isMongoId, articles.show)
     .put(auth.isMongoId, requiresLogin, hasAuthorization, hasPermissions, articles.update)
     .delete(auth.isMongoId, requiresLogin, hasAuthorization, hasPermissions, articles.destroy);
+=======
+    .post(auth.requiresLogin, hasPermissions, articles.create);
+  app.route('/api/articles/:articleId')
+    .get(auth.isMongoId, articles.show)
+    .put(auth.isMongoId, auth.requiresLogin, hasAuthorization, hasPermissions, articles.update)
+    .delete(auth.isMongoId, auth.requiresLogin, hasAuthorization, hasPermissions, articles.destroy);
+>>>>>>> c9288b2f61bc9903db61245305af1300820b858a
 
   // Finish with setting up the articleId param
   app.param('articleId', articles.article);

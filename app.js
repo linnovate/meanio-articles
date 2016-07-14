@@ -11,6 +11,7 @@ var Articles = new Module('articles');
  * All MEAN packages require registration
  * Dependency injection is used to define required modules
  */
+<<<<<<< HEAD
 Articles.register(function(app, auth, database, circles) {
 
   //We enable routing. By default the Package Object is passed to the routes
@@ -18,6 +19,15 @@ Articles.register(function(app, auth, database, circles) {
 
 /*  Articles.aggregateAsset('css', 'articles.css');
 */
+=======
+Articles.register(function(app, auth, database, circles, swagger) {
+
+  //We enable routing. By default the Package Object is passed to the routes
+  Articles.routes(app, auth, database);
+
+  Articles.aggregateAsset('css', 'articles.css');
+
+>>>>>>> c9288b2f61bc9903db61245305af1300820b858a
   
   //We are adding a link to the main menu for all authenticated users
   Articles.menus.add({
@@ -56,7 +66,12 @@ Articles.register(function(app, auth, database, circles) {
     */
 
   // Only use swagger.add if /docs and the corresponding files exists
+<<<<<<< HEAD
 /*  swagger.add(__dirname);
 */	
+=======
+  swagger.add(__dirname);
+	
+>>>>>>> c9288b2f61bc9903db61245305af1300820b858a
   return Articles;
 });

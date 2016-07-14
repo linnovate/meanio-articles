@@ -16,10 +16,10 @@ angular.module('mean.articles').config(['$stateProvider',
       })
       .state('create article', {
         url: '/articles/create',
-        templateUrl: '/articles/views/create.html'/*,
+        templateUrl: '/articles/views/create.html',
         requiredCircles : {
           circles: ['can create content']
-        }*/
+        }
       })
       .state('edit article', {
         url: '/articles/:articleId/edit',
