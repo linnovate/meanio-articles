@@ -1,21 +1,24 @@
-<section data-ng-controller="ArticlesController" data-ng-init="find()">
-  <ul class="articles unstyled">
-    <li data-ng-repeat="article in articles">
-      <span>{{article.created | date:'medium'}}</span> /
-      <span>{{article.user.name}}</span>
-      <h2>
-        <a data-ng-href="/articles/{{article._id}}">{{article.title}}</a>
+<section class="artSec" data-ng-controller="ArticlesController" data-ng-init="find()">
+  <md-content>
+    <md-list flex="" data-ng-repeat="article in articles">
+      <md-list-item  class="md-3-line" >
+        <div >
+          <span>{{article.created | date:'medium'}} / {{article.user.name}}</span> 
+          <h2>
+            <a data-ng-href="/articles/{{article._id}}">{{article.title}}</a>
+          </h2>
+          <div>{{article.content}}</div>
+
         <span data-ng-if="hasAuthorization(article)">
-          <a class="btn" href="/articles/{{article._id}}/edit">
-            <i class="glyphicon glyphicon-edit"></i>
-          </a>
-          <a class="btn" data-ng-click="remove(article);">
-            <i class="glyphicon glyphicon-trash"></i>
-          </a>
+          <a href="/articles/{{article._id}}/edit"><md-icon class="material-icons" md-menu-align-target="" >mode_edit</md-icon></a>
+          <a><md-icon class="material-icons" md-menu-align-target="" data-ng-click="remove(article);">delete</md-icon></a>
         </span>
-      </h2>
-      <div>{{article.content}}</div>
-    </li>
-  </ul>
-  <h1 data-ng-hide="!articles || articles.length">No articles yet. <br> Why don't you <a href="/articles/create">Create One</a>?</h1>
+         </div>
+      </md-list-item>
+      <md-divider></md-divider>
+    </md-list>
+  </md-content>
+
+ <h1 data-ng-hide="!articles || articles.length">No articles yet. <br> Why don't you <a href="/articles/create">Create One</a>?</h1>
 </section>
+
